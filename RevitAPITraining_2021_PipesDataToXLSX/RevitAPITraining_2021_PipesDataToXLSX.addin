@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>  <!--Файл манифеста для Revit-->
+<RevitAddIns> <!--список всех команд-->
+	<AddIn Type="Command"> <!--указание, что это команда-->
+		<Assembly>"C:\Program Files\RevitAPITraining\RevitAPITraining_2021_PipesDataToXLSX.dll"</Assembly> <!--путь к приложению-->
+		<AddInId>AFEAA5FB-28E3-4D1A-967A-072FD1DA29A0</AddInId> <!--Уникальный GUID приложения. Необходимо сгенерировать новый GUID с помощью приложения (например, VisualStudio)-->
+		<FullClassName>RevitAPITraining_2021_PipesDataToXLSX.Main</FullClassName> <!--Пространство имен и класс, с которого будет запускаться приложение-->
+		<VendorId>ADSK</VendorId> <!--ID разработчика в Autodesk. Можно зарегистрироваться и указать свой, либо использовать универсальный ADSK (Autodesk)-->
+		<Text>Экспорт данных труб в Excel</Text> <!--Название приложения-->
+	</AddIn>
+</RevitAddIns>
